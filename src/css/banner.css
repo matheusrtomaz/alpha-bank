@@ -1,0 +1,54 @@
+.banner {
+    background-image: url('../img/capa.png');
+    background-size: cover;
+    background-position: top;
+    height: 540px;
+    display: flex;
+    justify-content: auto;
+    color: var(--texto);
+    padding-left: 5vw;
+    padding-top: 4vh;
+    text-align: left;
+}
+
+.banner-content {
+    margin-top: 20px;
+}
+
+.banner-content h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: var(--texto);
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: var(--texto);
+}
+
+.btn1 {
+    background-color: var(--fundo-bota-ativo);
+    color: var(--texto);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    position: absolute;
+    top: 65vh;
+}
+
+.btn2, .btn3 {
+    background-color: var(--fundo-bota-ativo);
+    color: var(--texto);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    position: relative;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover {
+    background-color: var(--botao-destaques);
+    color: var(--fundo-rodape);
+}
